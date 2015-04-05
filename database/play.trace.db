@@ -1,0 +1,162 @@
+04-04 17:10:24 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO 'PUBLIC.CHAMPMATCHDETAIL'[*] (CHAMPID)            VALUES (?); "; expected "identifier"; SQL statement:
+INSERT INTO 'PUBLIC.CHAMPMATCHDETAIL' (champId)            VALUES (?); [42001-175]
+04-04 17:10:24 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO 'PUBLIC.CHAMPMATCHDETAIL'[*] (CHAMPID)            VALUES (?); "; expected "identifier"; SQL statement:
+INSERT INTO 'PUBLIC.CHAMPMATCHDETAIL' (champId)            VALUES (?); [42001-175]
+04-04 17:11:35 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
+04-04 17:11:35 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
+04-04 17:14:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE 'PUBLIC'[*].'CHAMPMATCHDETAIL'
+(
+'id' INT PRIMARY KEY,
+'champId' INT
+) "; expected "identifier"; SQL statement:
+CREATE TABLE 'PUBLIC'.'CHAMPMATCHDETAIL'
+(
+'id' int PRIMARY KEY,
+'champId' int
+) [42001-185]
+04-04 17:15:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE PUBLIC.CHAMPMATCHDETAIL
+(
+ID INT NOT NULL AUTO[*] INCREMENT,
+CHAMPID INT,
+PRIMARY KEY (ID)
+) "; expected "AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE PUBLIC.CHAMPMATCHDETAIL
+(
+id int NOT NULL AUTO INCREMENT,
+champId int,
+PRIMARY KEY (id)
+) [42001-185]
+04-04 17:15:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE PUBLIC.CHAMPMATCHDETAIL
+(
+ID INT NOT NULL AUTO[*]-INCREMENT,
+CHAMPID INT,
+PRIMARY KEY (ID)
+) "; expected "AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE PUBLIC.CHAMPMATCHDETAIL
+(
+id int NOT NULL AUTO-INCREMENT,
+champId int,
+PRIMARY KEY (id)
+) [42001-185]
+04-04 17:15:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE 'PUBLIC'[*].'CHAMPMATCHDETAIL'
+(
+'id' INT NOT NULL AUTO_INCREMENT,
+'champId' INT,
+PRIMARY KEY ('id')
+)
+
+DROP TABLE PUBLIC.CHAMPMATCHDETAIL "; expected "identifier"; SQL statement:
+CREATE TABLE 'PUBLIC'.'CHAMPMATCHDETAIL'
+(
+'id' int NOT NULL AUTO_INCREMENT,
+'champId' int,
+PRIMARY KEY ('id')
+)
+
+DROP TABLE PUBLIC.CHAMPMATCHDETAIL [42001-185]
+04-04 17:15:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE 'PUBLIC'[*].'CHAMPMATCHDETAIL'
+(
+'id' INT NOT NULL AUTO_INCREMENT,
+'champId' INT,
+PRIMARY KEY ('id')
+) "; expected "identifier"; SQL statement:
+CREATE TABLE 'PUBLIC'.'CHAMPMATCHDETAIL'
+(
+'id' int NOT NULL AUTO_INCREMENT,
+'champId' int,
+PRIMARY KEY ('id')
+) [42001-185]
+04-04 17:16:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE 'PUBLIC'[*].'CHAMPMATCHDETAIL'
+(
+'id' INT NOT NULL AUTO_INCREMENT,
+'champId' INT,
+PRIMARY KEY ('id')
+) "; expected "identifier"; SQL statement:
+CREATE TABLE 'PUBLIC'.'CHAMPMATCHDETAIL'
+(
+'id' int NOT NULL AUTO_INCREMENT,
+'champId' int,
+PRIMARY KEY ('id')
+) [42001-185]
+04-04 17:16:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE 'PUBLIC'[*].'CHAMPMATCHDETAIL'
+(
+ID INT NOT NULL AUTO_INCREMENT,
+CHAMPID INT,
+PRIMARY KEY ('id')
+) "; expected "identifier"; SQL statement:
+CREATE TABLE 'PUBLIC'.'CHAMPMATCHDETAIL'
+(
+id int NOT NULL AUTO_INCREMENT,
+champId int,
+PRIMARY KEY ('id')
+) [42001-185]
+04-04 17:16:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE PUBLIC.'CHAMPMATCHDETAIL'[*]
+(
+ID INT NOT NULL AUTO_INCREMENT,
+CHAMPID INT,
+PRIMARY KEY ('id')
+) "; expected "identifier"; SQL statement:
+CREATE TABLE PUBLIC.'CHAMPMATCHDETAIL'
+(
+id int NOT NULL AUTO_INCREMENT,
+champId int,
+PRIMARY KEY ('id')
+) [42001-185]
+04-04 17:16:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE PUBLIC.""CHAMPMATCHDETAIL""
+(
+ID INT NOT NULL AUTO_INCREMENT,
+CHAMPID INT,
+PRIMARY KEY ('id'[*])
+) "; expected "identifier"; SQL statement:
+CREATE TABLE PUBLIC."CHAMPMATCHDETAIL"
+(
+id int NOT NULL AUTO_INCREMENT,
+champId int,
+PRIMARY KEY ('id')
+) [42001-185]
+04-04 17:16:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE ""CHAMPMATCHDETAIL""
+(
+ID INT NOT NULL AUTO_INCREMENT,
+CHAMPID INT,
+PRIMARY KEY ('id'[*])
+) "; expected "identifier"; SQL statement:
+CREATE TABLE "CHAMPMATCHDETAIL"
+(
+id int NOT NULL AUTO_INCREMENT,
+champId int,
+PRIMARY KEY ('id')
+) [42001-185]
+04-04 17:17:17 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
+04-04 17:17:17 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
+04-04 17:17:19 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
+04-04 17:17:19 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
+04-04 17:17:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
+04-04 17:17:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHAMPMATCHDETAIL" not found; SQL statement:
+INSERT INTO PUBLIC.CHAMPMATCHDETAIL (champId)            VALUES (?); [42102-175]
