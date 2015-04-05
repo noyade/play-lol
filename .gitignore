@@ -1,12 +1,12 @@
 .idea/
 /.idea
 .idea/*
-.settings/
 /.settings
-/.settings/
+.settings/*
 database/
+/database
 /database/
-/database/
+database/*
 bin/
 /db
 .eclipse
